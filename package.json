@@ -1,18 +1,21 @@
 {
-  "name": "reqparam1",
+  "name": "hbars",
   "version": "1.0.0",
-  "description": "demo of req params",
-  "main": "app2.js",
+  "description": "demo of handle bars",
+  "main": "app.js",
   "scripts": {
-    "test": "nodemon app2.js"
+    "test": "nodemon app.js"
   },
   "keywords": [
-    "req",
+    "hbars",
     "express"
   ],
   "author": "MIT",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.1"
   }
 }
